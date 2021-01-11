@@ -1,0 +1,31 @@
+h2{
+    color: greenyellow
+}
+
+p{
+    color:orange;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: large;
+    font-weight: 900;
+    font-style: italic;
+}
+body{
+    background-color: black;
+}
+
+.blue{
+    color:blue;
+    font-style:unset;
+}
+
+.divTest p{
+    color:pink;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: small;
+    font-weight: 100;
+    font-style: italic;
+}
+
+.divTest h2{
+    color:cornflowerblue;
+}
