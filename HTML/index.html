@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form method="POST" action="index.html">
+        <fieldset>
+            <legend>1 Your Basic Info</legend>
+            <label>Name:</label>
+            <input type = "text" id="name" name="name" autofocus="true" required/>
+            <br/>
+            <label>Email:</label>
+            <input type="text" id="email" name="email" required/>
+            <br/>
+            <label>Password:</label>
+            <input type="password" id="password" name="pass" required/>
+            <br/>
+            <label>Gender:</label><br/>
+            <input type="radio" id="gender" value="male"><label for="male">Male</label>
+            <br/>
+            <input type="radio" id="gender" value="female"/><label for="female">Female</label>
+            <br/>
+            <input type="radio" id="gender" value="preferNot"/><label for="preferNot">Prefer not to say</label>
+        </fieldset>
+        <button type="submit">Sign Up</button>
+    </form>
+</body>
+</html>
