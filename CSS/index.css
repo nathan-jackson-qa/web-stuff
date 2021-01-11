@@ -9,9 +9,9 @@ p{
     font-weight: 900;
     font-style: italic;
 }
-body{
+/* body{
     background-color: black;
-}
+} */
 
 .blue{
     color:blue;
@@ -28,4 +28,25 @@ body{
 
 .divTest h2{
     color:cornflowerblue;
+}
+
+.details {
+    background-image: linear-gradient(to bottom right,greenyellow, cornflowerblue, white);
+}
+.details input {
+    width: 70%;
+    padding: 5px 5px;
+    margin-bottom: 10px;
+}
+
+.personal {
+    background-image: linear-gradient(to right,white, red, white);
+}
+
+.personal select, input{
+    margin-bottom: 10px;
+}
+
+.comments {
+    background-image: linear-gradient(orange, cyan);
 }
