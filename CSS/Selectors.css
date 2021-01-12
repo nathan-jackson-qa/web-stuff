@@ -1,0 +1,23 @@
+em {
+    color:blue;
+}
+
+article p {
+    color:red;
+}
+
+article > blockquote {
+    color:limegreen;
+}
+
+#heading + p {
+    color:purple;
+}
+
+h1 ~ p {
+    background-color: grey;
+}
+
+p.hover:hover {
+    color: aqua;
+}
