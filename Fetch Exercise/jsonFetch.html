@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fetching from JSON Placeholder</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+
+</head>
+
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="col-md">
+                <button class="btn btn-info" id="get">Get</button>
+            </div>
+            <div class="col-md" id="putData">
+
+            </div>
+        </div>
+        <br /><br />
+        <div class="row">
+            <div class="col-md">
+                <button class="btn btn-info" id="post">Post</button>
+            </div>
+            <div class="col-md">
+                <div class="form-floating">
+                    <input type="text" class="form-control" id="createTitle" placeholder="title">
+                    <label for="createTitle">Enter your Title:</label>
+                </div>
+            </div>
+            <div class="col-md">
+                <div class="form-floating">
+                    <input type="text" class="form-control" id="createBody" placeholder="body">
+                    <label for="createTitle">Enter the body:</label>
+                </div>
+            </div>
+            <div class="col-md">
+                <div class="form-floating">
+                    <input type="text" class="form-control" id="createID" placeholder="id">
+                    <label for="createTitle">Enter your ID:</label>
+                </div>
+            </div>
+        </div>
+        <br /><br />
+        <div class="row">
+            <div class="col-md">
+                <button class="btn btn-info" id="update">Update</button>
+            </div>
+            <div class="col-md">
+                <div class="form-floating">
+                    <input type="text" class="form-control" id="updateID" placeholder="id">
+                    <label for="updateID">Enter the ID to be updated:</label>
+                </div>
+            </div>
+            <div class="col-md">
+                <div class="form-floating">
+                    <input type="text" class="form-control" id="updateTitle" placeholder="title">
+                    <label for="updateTitle">Enter the new title:</label>
+                </div>
+            </div>
+            <div class="col-md">
+                <div class="form-floating">
+                    <input type="text" class="form-control" id="updateBody" placeholder="body">
+                    <label for="updateBody">Enter the new body:</label>
+                </div>
+            </div>
+            <div class="col-md">
+                <div class="form-floating">
+                    <input type="text" class="form-control" id="updateUserID" placeholder="userid">
+                    <label for="updateUserID">Enter the new user ID:</label>
+                </div>
+            </div>
+        </div>
+        <br /><br />
+        <div class="row">
+            <div class="col-md">
+                <button class="btn btn-info" id="patch">Patch</button>
+            </div>
+        </div>
+        <br /><br />
+        <div class="row">
+            <div class="col-md">
+                <button class="btn btn-info" id="delete">Delete</button>
+            </div>
+        </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW"
+        crossorigin="anonymous"></script>
+    <script src="jsonFetch.js"></script>
+</body>
+
+</html>

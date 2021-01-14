@@ -92,7 +92,6 @@ btnValues.addEventListener('click', clearValues);
 
 const btnOne = document.querySelector("#One");
 btnOne.addEventListener('click', () => addNumber(1));
-
 const btnTwo = document.querySelector("#Two");
 btnTwo.addEventListener('click', () => addNumber(2));
 const btnThree = document.querySelector("#Three");
