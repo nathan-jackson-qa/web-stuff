@@ -61,20 +61,7 @@ const addNumber = (number) => {
     } else {
         num2.value += number;
     }
-
 }
-
-
-const one = () => addNumber(1);
-const two = () => addNumber(2);
-const three = () => addNumber(3);
-const four = () => addNumber(4);
-const five = () => addNumber(5);
-const six = () => addNumber(6);
-const seven = () => addNumber(7);
-const eight = () => addNumber(8);
-const nine = () => addNumber(9);
-const zero = () => addNumber(0);
 
 const next = () => {
     if(currentNumber == "first") {
@@ -104,25 +91,26 @@ const btnValues = document.querySelector("#clearValues");
 btnValues.addEventListener('click', clearValues);
 
 const btnOne = document.querySelector("#One");
-btnOne.addEventListener('click', one);
+btnOne.addEventListener('click', () => addNumber(1));
+
 const btnTwo = document.querySelector("#Two");
-btnTwo.addEventListener('click', two);
+btnTwo.addEventListener('click', () => addNumber(2));
 const btnThree = document.querySelector("#Three");
-btnThree.addEventListener('click', three);
+btnThree.addEventListener('click', () => addNumber(3));
 const btnFour = document.querySelector("#Four");
-Four.addEventListener('click', four);
+Four.addEventListener('click', () => addNumber(4));
 const btnFive = document.querySelector("#Five");
-btnFive.addEventListener('click', five);
+btnFive.addEventListener('click', () => addNumber(5));
 const btnSix = document.querySelector("#Six");
-btnSix.addEventListener('click', six);
+btnSix.addEventListener('click', () => addNumber(6));
 const btnSeven = document.querySelector("#Seven");
-btnSeven.addEventListener('click', seven);
+btnSeven.addEventListener('click', () => addNumber(7));
 const btnEight = document.querySelector("#Eight");
-btnEight.addEventListener('click', eight);
+btnEight.addEventListener('click', () => addNumber(8));
 const btnNine = document.querySelector("#Nine");
-btnNine.addEventListener('click', nine);
+btnNine.addEventListener('click', () => addNumber(9));
 const btnZero = document.querySelector("#Zero");
-btnZero.addEventListener('click', zero);
+btnZero.addEventListener('click', () => addNumber(0));
 
 const btnNext = document.querySelector("#next");
 btnNext.addEventListener('click', next);
